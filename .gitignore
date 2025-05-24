@@ -1,0 +1,15 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore node/npm or Python cache
+node_modules/
+__pycache__/
+
+# Ignore environment or secret files
+.env
+config/secrets.json
+
+# Ignore temporary or log files
+*.log
+*.tmp
